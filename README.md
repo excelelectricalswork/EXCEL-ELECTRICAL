@@ -5,17 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Excel Electricals - Choondy, Aluva</title>
   <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
-    header { background:#222; color:#fff; padding:40px; text-align:center; }
-    header h1 { margin:0; font-size:2.5em; }
-    nav { background:#333; display:flex; justify-content:center; flex-wrap:wrap; }
+    body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background:#f4f4f4; }
+    header { background:linear-gradient(90deg,#ff6600,#ffcc00); color:#fff; padding:50px; text-align:center; }
+    header h1 { margin:0; font-size:3em; }
+    nav { background:#222; display:flex; justify-content:center; flex-wrap:wrap; }
     nav a { color:#fff; padding:15px 20px; text-decoration:none; transition:0.3s; }
     nav a:hover { background:#ff6600; }
     section { padding:60px 20px; text-align:center; }
     h2 { color:#333; margin-bottom:20px; }
     .services { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
     .card { background:#fff; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1); width:250px; padding:20px; transition:0.3s; }
-    .card:hover { transform:scale(1.05); }
+    .card:hover { transform:scale(1.05); background:#fffbf0; }
+    .gallery { display:flex; flex-wrap:wrap; justify-content:center; gap:15px; }
+    .gallery img { width:250px; height:180px; object-fit:cover; border-radius:8px; box-shadow:0 3px 6px rgba(0,0,0,0.2); transition:0.3s; }
+    .gallery img:hover { transform:scale(1.05); }
     footer { background:#222; color:#fff; text-align:center; padding:20px; }
     .btn { display:inline-block; margin:10px; padding:12px 20px; background:#ff6600; color:#fff; border-radius:5px; text-decoration:none; transition:0.3s; }
     .btn:hover { background:#e65c00; }
@@ -33,6 +36,7 @@
 
   <nav>
     <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -44,6 +48,16 @@
       <div class="card"><h3>Repairing</h3><p>Reliable electrical repairs with quick turnaround.</p></div>
       <div class="card"><h3>Servicing</h3><p>Regular maintenance to extend motor life.</p></div>
       <div class="card"><h3>Varnishing</h3><p>High-quality varnishing for durability.</p></div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/250x180/?electric-motor" alt="Motor Image 1">
+      <img src="https://source.unsplash.com/250x180/?machine" alt="Motor Image 2">
+      <img src="https://source.unsplash.com/250x180/?engineering" alt="Motor Image 3">
+      <img src="https://source.unsplash.com/250x180/?electric" alt="Motor Image 4">
     </div>
   </section>
 
