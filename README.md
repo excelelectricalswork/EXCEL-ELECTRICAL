@@ -6,8 +6,9 @@
   <title>Excel Electricals - Choondy, Aluva</title>
   <style>
     body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background:#f4f4f4; }
-    header { background:linear-gradient(90deg,#ff6600,#ffcc00); color:#fff; padding:50px; text-align:center; }
-    header h1 { margin:0; font-size:3em; }
+    header { background:linear-gradient(90deg,#ff6600,#ffcc00); color:#fff; padding:80px 20px; text-align:center; }
+    header h1 { margin:0; font-size:3.5em; }
+    header p { font-size:1.2em; }
     nav { background:#222; display:flex; justify-content:center; flex-wrap:wrap; }
     nav a { color:#fff; padding:15px 20px; text-decoration:none; transition:0.3s; }
     nav a:hover { background:#ff6600; }
@@ -26,12 +27,14 @@
     input, textarea { width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px; }
     button { background:#ff6600; color:#fff; padding:12px 20px; border:none; border-radius:5px; cursor:pointer; }
     button:hover { background:#e65c00; }
+    iframe { border:0; width:100%; height:300px; border-radius:8px; margin-top:20px; }
   </style>
 </head>
 <body>
   <header>
     <h1>Excel Electricals</h1>
     <p>Motor Winding • Repairing • Servicing • Varnishing</p>
+    <a class="btn" href="https://excelelectricals.co.in" target="_blank">Visit Our Website</a>
   </header>
 
   <nav>
@@ -64,7 +67,6 @@
   <section id="about">
     <h2>About Us</h2>
     <p>Located in Choondy, Aluva, Excel Electricals is your trusted partner for motor winding, repairing, and servicing. We combine experience with modern techniques to deliver reliable solutions.</p>
-    <a class="btn" href="https://excelelectricals.co.in" target="_blank">Visit Our Website</a>
   </section>
 
   <section id="contact">
@@ -82,6 +84,9 @@
       <textarea id="message" name="message" rows="5" required></textarea>
       <button type="submit">Send Message</button>
     </form>
+
+    <h3>Find Us</h3>
+    <iframe src="https://www.google.com/maps/embed/v1/place?q=Choondy+Aluva&key=YOUR_GOOGLE_MAPS_API_KEY" allowfullscreen></iframe>
   </section>
 
   <footer>
